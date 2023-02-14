@@ -5,7 +5,7 @@ import MachineInfoCard from './MachineInfoCard'
 const MachineInfo = () => {
   return (
     <View>
-      <Text>LN-150-LW00004</Text>
+      <Text>LN-150-LW00004 test</Text>
       {/* なんかリストかなんか使ってMapするべき */}
       <MachineInfoCard
         infoTitle="Test"

@@ -2,14 +2,16 @@ import React from 'react'
 import { NavigationContainer } from '@react-navigation/native'
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs'
 import Ionicons from 'react-native-vector-icons/Ionicons'
+import { StatusBar } from 'react-native'
 
 import ListScreen from '../screen/ListScreen'
 import DetailScreen from '../screen/DetailScreen'
 import ReportScreen from '../screen/ReportScreen'
+import Header from '../component/header'
 
 const listName = 'List'
 const detailName = 'Details'
-const reportName = 'Settings'
+const reportName = 'Report'
 
 const Tab = createBottomTabNavigator();
 
@@ -17,6 +19,8 @@ const Tab = createBottomTabNavigator();
 const MainNavigator = () => {
   return (
     <NavigationContainer>
+      <StatusBar backgroundColor="#007DC5"/>
+      <Header/>
          <Tab.Navigator
         initialRouteName={detailName}
         screenOptions={({ route }) => ({
@@ -40,9 +44,9 @@ const MainNavigator = () => {
         })}
        >
 
-        <Tab.Screen name={listName} component={ListScreen} />
-        <Tab.Screen name={detailName} component={DetailScreen} />
-        <Tab.Screen name={reportName} component={ReportScreen} />
+        <Tab.Screen name={listName} component={ListScreen} options={{headerShown:false}} />
+        <Tab.Screen name={detailName} component={DetailScreen} options={{headerShown:false}} />
+        <Tab.Screen name={reportName} component={ReportScreen}  options={{headerShown:false}}/>
 
       </Tab.Navigator>
     </NavigationContainer>

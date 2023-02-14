@@ -1,10 +1,10 @@
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, View,StatusBar } from 'react-native';
 import MainNavigator from './navigations/MainNavigator';
 
 export default function App() {
   return (
       <MainNavigator/>
-  );
+      );
 }
 
 const styles = StyleSheet.create({
