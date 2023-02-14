@@ -4,7 +4,7 @@ import React from 'react'
 const DetailScreen = () => {
   return (
     <View>
-      <Text>This is DetailScreen</Text>
+      <Text>This is Detail Screen</Text>
     </View>
   )
 }
