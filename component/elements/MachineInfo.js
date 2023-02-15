@@ -5,11 +5,8 @@ import MachineInfoCard from './MachineInfoCard'
 const MachineInfo = () => {
   return (
     <View style={styles.machineInfo}>
-      <Text style={styles.machineTitle}>LN-150-LW00004 test</Text>
-      {/* なんかリストかなんか使ってMapするべき */}
+      <Text style={styles.machineTitle}>LN-150-LW00004</Text>
       <MachineInfoCard
-        infoTitle="Test"
-        infoData="Testdata"
       />
     </View>
   )
