@@ -2,11 +2,12 @@ import { View, Text,StyleSheet } from 'react-native'
 import React from 'react'
 import MachineInfoCard from './MachineInfoCard'
 
-const MachineInfo = () => {
+const MachineInfo = ({passingData}) => {
   return (
     <View style={styles.machineInfo}>
       <Text style={styles.machineTitle}>LN-150-LW00004</Text>
       <MachineInfoCard
+      passingData={passingData}
       />
     </View>
   )

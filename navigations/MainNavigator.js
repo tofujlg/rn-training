@@ -40,7 +40,10 @@ const MainNavigator = () => {
 
             // You can return any component that you like here!
             return <Ionicons name={iconName} size={size} color={color} />;
-          },
+          },tabBarStyle:{
+            backgroundColor:'#333333',
+            height:60,
+          }
         })}
        >
 

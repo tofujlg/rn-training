@@ -8,7 +8,7 @@ import MachineDetailInfo from '../component/MachineDetailInfo';
 import CheckWarrenty from '../component/CheckWarrenty';
 import Unsync from '../component/unsync';
 import Ask from '../component/ask';
-
+import mockData from '../Mockdata/mockData';
 
 
 const DetailScreen = ({navigation}) => {
@@ -17,7 +17,7 @@ const DetailScreen = ({navigation}) => {
       <Wifi/>
       <Machine/>
       <Bar/>
-      <Report navigation={navigation}/>
+      <Report navigation={navigation} mockData={mockData}/>
       <MachineDetailInfo/>
       <CheckWarrenty/>
       <Unsync/>

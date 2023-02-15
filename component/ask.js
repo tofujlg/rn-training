@@ -4,7 +4,11 @@ import React from 'react'
 const Ask = () => {
   return (
         <View style={styles.card}>
+          <View style={styles.div}>
+          </View>
+          <View style={styles.ask}>
       <Text>チャットで質問</Text>
+          </View>
     </View>
   )
 }
@@ -15,7 +19,7 @@ const styles = StyleSheet.create({
         marginHorizontal:10,
         marginVertical:5,
         borderRadius: 6,
-        backgroundColor: "blue",
+        backgroundColor: "#007dc5",
         shadowColor: "#000",
         shadowOffset: {
             width: 0,
@@ -25,7 +29,10 @@ const styles = StyleSheet.create({
         shadowRadius: 5.46,
 
         elevation: 9,
-    }
+        flexDirection:'row'
+    },div:{
+    },ask:{
+   }
 })
 
 export default Ask
