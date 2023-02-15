@@ -28,6 +28,8 @@ const styles = StyleSheet.create({
         alignItems:"center"
     },
     text:{
-        color: "white"
+        color: "white",
+        fontSize:15,
+        fontWeight:'500'
     }
 })
