@@ -1,3 +1,3 @@
-const constants = {
+export const constants = {
     primaryColor: '#007DC5'
 }
