@@ -6,7 +6,9 @@ import mockData from '../Mockdata/mockData'
 
 const Report = ({ navigation }) => {
     return (
-            <TouchableOpacity onPress={
+            <TouchableOpacity
+            testID='myButton'
+            onPress={
                 () => navigation.navigate('Report',{mockData})
             }>
                 <Card title="レポート" icon='report'/>

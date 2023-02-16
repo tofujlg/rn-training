@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "orange",
+      "borderRadius": 6,
+      "elevation": 9,
+      "marginHorizontal": 10,
+      "marginVertical": 5,
+      "padding": 18,
+      "shadowColor": "#000",
+      "shadowOffset": Object {
+        "height": 4,
+        "width": 0,
+      },
+      "shadowOpacity": 0.32,
+      "shadowRadius": 5.46,
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "color": "white",
+        "fontWeight": "bold",
+        "textAlign": "center",
+      }
+    }
+  >
+    機械の接続解除
+  </Text>
+</View>
+`;

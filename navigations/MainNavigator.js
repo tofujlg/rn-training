@@ -18,8 +18,10 @@ const Tab = createBottomTabNavigator();
 
 const MainNavigator = () => {
   return (
+
     <NavigationContainer>
-      <StatusBar backgroundColor="#007DC5"/>
+      <StatusBar 
+      backgroundColor="#007DC5"/>
       <Header/>
          <Tab.Navigator
         initialRouteName={detailName}

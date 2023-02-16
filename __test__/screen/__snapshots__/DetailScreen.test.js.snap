@@ -1,0 +1,518 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot 1`] = `
+<RCTScrollView>
+  <View>
+    <View
+      style={
+        Object {
+          "flexDirection": "column",
+          "justifyContent": "space-between",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "padding": 20,
+          }
+        }
+      >
+        <View
+          accessibilityLabel={null}
+          style={
+            Array [
+              Object {
+                "flexDirection": "row",
+              },
+              Object {},
+            ]
+          }
+          testID={null}
+        >
+          <View
+            onMoveShouldSetResponder={[Function]}
+            onMoveShouldSetResponderCapture={[Function]}
+            onResponderEnd={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderReject={[Function]}
+            onResponderRelease={[Function]}
+            onResponderStart={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            onStartShouldSetResponderCapture={[Function]}
+            style={
+              Object {
+                "flex": 1,
+              }
+            }
+          >
+            <View
+              onLayout={[Function]}
+              style={
+                Object {
+                  "backgroundColor": "#FFFFFF",
+                  "borderRadius": 50,
+                  "height": 40,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "borderColor": "#C9C9C9",
+                    "borderRadius": 50,
+                    "borderWidth": 0,
+                    "flex": 1,
+                    "flexDirection": "row",
+                  }
+                }
+              >
+                <View
+                  accessible={true}
+                  collapsable={false}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "flex": 1,
+                      "flexDirection": "row",
+                      "justifyContent": "center",
+                      "opacity": 1,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "backgroundColor": "transparent",
+                          "color": "#FFFFFF",
+                          "fontSize": 14,
+                          "fontWeight": "normal",
+                          "textAlign": "center",
+                        },
+                        Object {},
+                      ]
+                    }
+                  >
+                    Wifi
+                  </Text>
+                </View>
+                <View
+                  accessible={true}
+                  collapsable={false}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "flex": 1,
+                      "flexDirection": "row",
+                      "justifyContent": "center",
+                      "opacity": 1,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Array [
+                        Object {
+                          "backgroundColor": "transparent",
+                          "color": "#000000",
+                          "fontSize": 14,
+                          "fontWeight": "normal",
+                          "textAlign": "center",
+                        },
+                        Object {},
+                      ]
+                    }
+                  >
+                    Bluetooth
+                  </Text>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "white",
+            "borderRadius": 6,
+            "elevation": 9,
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "margin": 10,
+            "shadowColor": "#000",
+            "shadowOffset": Object {
+              "height": 4,
+              "width": 0,
+            },
+            "shadowOpacity": 0.32,
+            "shadowRadius": 5.46,
+          }
+        }
+      >
+        <Image
+          source={1}
+          style={
+            Object {
+              "height": 60,
+              "left": 30,
+              "position": "relative",
+              "top": 20,
+              "width": 40,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "padding": 20,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontSize": 18,
+                "fontWeight": "800",
+              }
+            }
+          >
+            LN-150-LW00004
+          </Text>
+          <Text
+            style={
+              Object {
+                "color": "grey",
+                "fontWeight": "bold",
+              }
+            }
+          >
+            機械同期
+          </Text>
+          <Text
+            style={
+              Object {
+                "fontWeight": "600",
+              }
+            }
+          >
+            2023/02/15 9:00
+          </Text>
+        </View>
+        <View
+          accessible={true}
+          collapsable={false}
+          focusable={false}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#007dc5",
+              "borderBottomRightRadius": 6,
+              "borderTopRightRadius": 6,
+              "opacity": 1,
+              "padding": 17,
+            }
+          }
+        >
+          <Text />
+          <Text
+            style={
+              Object {
+                "color": "white",
+                "fontWeight": "400",
+                "paddingTop": 8,
+              }
+            }
+          >
+            同期
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "white",
+            "borderRadius": 6,
+            "elevation": 9,
+            "margin": 10,
+            "paddingVertical": 35,
+            "shadowColor": "#000",
+            "shadowOffset": Object {
+              "height": 4,
+              "width": 0,
+            },
+            "shadowOpacity": 0.32,
+            "shadowRadius": 5.46,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "borderColor": "blue",
+              "borderRadius": 6,
+              "borderWidth": 1,
+              "marginHorizontal": 10,
+              "padding": 5,
+            }
+          }
+        />
+      </View>
+      <View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "white",
+              "borderRadius": 6,
+              "elevation": 9,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "marginHorizontal": 10,
+              "marginVertical": 5,
+              "padding": 18,
+              "shadowColor": "#000",
+              "shadowOffset": Object {
+                "height": 4,
+                "width": 0,
+              },
+              "shadowOpacity": 0.32,
+              "shadowRadius": 5.46,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+              }
+            }
+          >
+            <Text />
+            <Text
+              style={
+                Object {
+                  "fontWeight": "bold",
+                  "left": 7,
+                  "position": "relative",
+                  "top": 5,
+                }
+              }
+            >
+              機械の詳細情報
+            </Text>
+          </View>
+          <Text />
+        </View>
+      </View>
+      <View
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+        testID="myButton"
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "white",
+              "borderRadius": 6,
+              "elevation": 9,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "marginHorizontal": 10,
+              "marginVertical": 5,
+              "padding": 18,
+              "shadowColor": "#000",
+              "shadowOffset": Object {
+                "height": 4,
+                "width": 0,
+              },
+              "shadowOpacity": 0.32,
+              "shadowRadius": 5.46,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+              }
+            }
+          >
+            <Text />
+            <Text
+              style={
+                Object {
+                  "fontWeight": "bold",
+                  "left": 7,
+                  "position": "relative",
+                  "top": 5,
+                }
+              }
+            >
+              レポート
+            </Text>
+          </View>
+          <Text />
+        </View>
+      </View>
+      <View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "white",
+              "borderRadius": 6,
+              "elevation": 9,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "marginHorizontal": 10,
+              "marginVertical": 5,
+              "padding": 18,
+              "shadowColor": "#000",
+              "shadowOffset": Object {
+                "height": 4,
+                "width": 0,
+              },
+              "shadowOpacity": 0.32,
+              "shadowRadius": 5.46,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+              }
+            }
+          >
+            <Text />
+            <Text
+              style={
+                Object {
+                  "fontWeight": "bold",
+                  "left": 7,
+                  "position": "relative",
+                  "top": 5,
+                }
+              }
+            >
+              機械の詳細情報
+            </Text>
+          </View>
+          <Text />
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "orange",
+            "borderRadius": 6,
+            "elevation": 9,
+            "marginHorizontal": 10,
+            "marginVertical": 5,
+            "padding": 18,
+            "shadowColor": "#000",
+            "shadowOffset": Object {
+              "height": 4,
+              "width": 0,
+            },
+            "shadowOpacity": 0.32,
+            "shadowRadius": 5.46,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "white",
+              "fontWeight": "bold",
+              "textAlign": "center",
+            }
+          }
+        >
+          機械の接続解除
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#007dc5",
+            "borderRadius": 6,
+            "elevation": 9,
+            "flexDirection": "row",
+            "left": 290,
+            "marginHorizontal": 10,
+            "marginVertical": 5,
+            "padding": 10,
+            "position": "relative",
+            "shadowColor": "#000",
+            "shadowOffset": Object {
+              "height": 4,
+              "width": 0,
+            },
+            "shadowOpacity": 0.32,
+            "shadowRadius": 5.46,
+            "top": 10,
+            "width": 100,
+          }
+        }
+      >
+        <View
+          style={Object {}}
+        />
+        <View>
+          <Text
+            style={
+              Object {
+                "color": "white",
+                "fontWeight": "600",
+                "textAlign": "center",
+              }
+            }
+          >
+            チャットで質問
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
+`;
