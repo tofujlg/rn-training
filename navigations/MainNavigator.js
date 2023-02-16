@@ -50,7 +50,6 @@ const MainNavigator = () => {
         <Tab.Screen name={listName} component={ListScreen} options={{headerShown:false}} />
         <Tab.Screen name={detailName} component={DetailScreen} options={{headerShown:false}} />
         <Tab.Screen name={reportName} component={ReportScreen}  options={{headerShown:false}}/>
-
       </Tab.Navigator>
     </NavigationContainer>
   )

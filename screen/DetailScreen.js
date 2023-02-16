@@ -1,4 +1,4 @@
-import { View, Text,StyleSheet} from 'react-native'
+import { View, Text, StyleSheet, ScrollView } from 'react-native'
 import React from 'react'
 import Wifi from '../component/wifi';
 import Machine from '../component/machine'
@@ -11,26 +11,28 @@ import Ask from '../component/ask';
 import mockData from '../Mockdata/mockData';
 
 
-const DetailScreen = ({navigation}) => {
+const DetailScreen = ({ navigation }) => {
   return (
-    <View style={styles.container}>
-      <Wifi/>
-      <Machine/>
-      <Bar/>
-      <Report navigation={navigation} mockData={mockData}/>
-      <MachineDetailInfo/>
-      <CheckWarrenty/>
-      <Unsync/>
-      <Ask/>
-    </View>
+    <ScrollView>
+      <View style={styles.container}>
+        <Wifi />
+        <Machine />
+        <Bar />
+        <MachineDetailInfo />
+        <Report navigation={navigation} mockData={mockData} />
+        <CheckWarrenty />
+        <Unsync />
+        <Ask />
+      </View>
+    </ScrollView>
   )
 }
 
 const styles = StyleSheet.create({
-    container: {
-        flexDirection: "column",
-        justifyContent: "space-between"
-    },
+  container: {
+    flexDirection: "column",
+    justifyContent: "space-between"
+  },
 });
 
 

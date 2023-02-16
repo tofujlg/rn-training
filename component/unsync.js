@@ -4,7 +4,7 @@ import React from 'react'
 const Unsync = () => {
   return (
     <View style={styles.card}>
-      <Text>機械の接続解除</Text>
+      <Text style={styles.cardTitle}>機械の接続解除</Text>
     </View>
   )
 }
@@ -13,7 +13,7 @@ const Unsync = () => {
 
 const styles = StyleSheet.create({
     card: {
-        padding: 20,
+        padding: 18,
         marginHorizontal:10,
         marginVertical:5,
         borderRadius: 6,
@@ -25,8 +25,11 @@ const styles = StyleSheet.create({
         },
         shadowOpacity: 0.32,
         shadowRadius: 5.46,
-
         elevation: 9,
+    },cardTitle:{
+      color:'white',
+      fontWeight:'bold',
+      textAlign:'center'
     }
 })
 

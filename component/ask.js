@@ -6,8 +6,8 @@ const Ask = () => {
         <View style={styles.card}>
           <View style={styles.div}>
           </View>
-          <View style={styles.ask}>
-      <Text>チャットで質問</Text>
+          <View >
+      <Text style={styles.ask}>チャットで質問</Text>
           </View>
     </View>
   )
@@ -15,10 +15,13 @@ const Ask = () => {
 
 const styles = StyleSheet.create({
     card: {
-        padding: 20,
+        position:'relative',
+        left:290,
+        padding:10,
         marginHorizontal:10,
         marginVertical:5,
         borderRadius: 6,
+        width:100,
         backgroundColor: "#007dc5",
         shadowColor: "#000",
         shadowOffset: {
@@ -32,6 +35,9 @@ const styles = StyleSheet.create({
         flexDirection:'row'
     },div:{
     },ask:{
+      textAlign:'center'
+      ,color:'white',
+      fontWeight:'600'
    }
 })
 

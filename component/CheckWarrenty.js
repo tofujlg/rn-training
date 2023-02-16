@@ -5,7 +5,7 @@ import Card from './elements/Card'
 const CheckWarrenty = () => {
     return (
         <View >
-            <Card title="機械の詳細情報"/>
+            <Card title="機械の詳細情報" icon='ribbon'/>
         </View>
     )
 }
